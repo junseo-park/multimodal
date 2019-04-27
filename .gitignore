@@ -1,2 +1,26 @@
 data/
 
+########## STANDARD GITIGNORE ########
+### JupyterNotebook ###
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+
+### Python ###
+__pycache__
+*/__pycache__/
+.env/
+
+
+### R ###
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+
+
+### macOS ###
+# General
+.DS_Store
